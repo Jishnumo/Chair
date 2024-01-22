@@ -3,12 +3,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: var(--main_color);
 }
 :root{
     --main_color: #e3e8e4;
     --primary_color: #363636;
     --main_font: 'Playfair Display', serif;
 }
+
 nav{
     display: flex;
     justify-content: space-around;
