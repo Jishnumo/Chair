@@ -34,7 +34,8 @@ nav a:hover{
     padding-bottom:5px;
 }
 .filled{
-    padding:10px 30px;
+    height:40px;
+    width: 120px;
     font-weight: bold;
     background: var(--primary_color);
     border:none;
@@ -54,18 +55,22 @@ header{
     margin-top:9rem;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    height: 90vh;
 }
 header img{
-    height: 500px;
-    width: 500px;
+    height: 490px;
+    width: 490px;
     border-radius: 100%;
+    box-shadow: 8px 10px 18px rgba(0, 0, 0, 0.06);
 }
 header h1{
     font-size: 4rem;
     font-family: var(--main_font);
     color: #0000004f;
     margin-bottom: 1.3rem;
+}
+.parth{
+    margin-bottom:2rem;
 }
 h1 span{
     color: black;
@@ -77,10 +82,21 @@ header p{
     margin-bottom: 1.3rem;
 }
 .unfill{
-    padding:5px 15px;
+    height:40px;
+    width: 120px;
     font-weight: bold;
+    font-family: sans-serif;
     background-color: white;
     color: var(--primary_color);
     border: 2px solid var(--primary_color);
     border-radius: 100px;
+    cursor: pointer;
+}
+.unfill:hover{
+    background: var(--primary_color);
+    border:none;
+    border-radius: 100px;
+    color: white;
+    transition: ease-in;
+    transition-duration: .5s;
 }
