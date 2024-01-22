@@ -100,3 +100,20 @@ header p{
     transition: ease-in;
     transition-duration: .5s;
 }
+section.info{
+    margin-top:2.5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #363663;
+    
+}
+.info h1{
+    font-family: var(--main_font);
+    font-size: 2rem;
+}
+.info p{
+    text-align: center;
+    margin: 0 40px;
+    font-family: sans-serif;
+}
