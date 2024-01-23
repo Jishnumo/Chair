@@ -180,7 +180,7 @@ section .products{
     text-align: center;
 }
 .btnar {
-    margin-top: 20px;
+    margin-top: 40px;
     position: relative;
     margin-left: 43.7rem;
 }
@@ -191,3 +191,30 @@ section .products{
 
     
 }
+section.why{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.why .imagecat{
+    background-color: var(--main_color);
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+}
+.why .imagecat{
+    height: 400px;
+    width: 400px;
+    background-image:url(sectiii1.png);
+    background-position: center;
+    background-size: contain;
+}
+.writings h1{
+    font-family: var(--main_font);
+    font-size: 4rem;
+}
+.writings h1 span{
+    color: #0000004f;
+}
+
