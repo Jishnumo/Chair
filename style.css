@@ -286,6 +286,8 @@ section.best{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height:100vh;
+    
 }
 .best .wr h1{
     font-size: 4rem;
