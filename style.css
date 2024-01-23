@@ -118,7 +118,7 @@ section.info{
 }
 section .products{
     margin-top:8rem;
-    height: 100vh;
+    height: 45vh;
 }
 .products h1{
     text-align: center;
@@ -128,8 +128,9 @@ section .products{
 }
 .selections{
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-around;
 }
 .selections .img{
     height:200px;
@@ -166,13 +167,27 @@ section .products{
     border-top-right-radius: 200px;
     border-top-left-radius: 200px;
     background-image: url(https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    background-position: center;
+    background-position: top;
     background-size: cover;
 }
 .details{
+    font-family: sans-serif;
     padding-top:2rem;
-    height: 200px;
+    height: 150px;
     width: 300px;
-    background-color: #363663;
+    background-color: var(--primary_color);
     color: white;
+    text-align: center;
+}
+.btnar {
+    margin-top: 20px;
+    position: relative;
+    margin-left: 43.7rem;
+}
+.btnar button{
+    padding: 0 20px;
+    border: none;
+    font-size: 2rem;
+
+    
 }
