@@ -308,6 +308,11 @@ section.best{
     border-radius: 5px;
     margin-top:4rem;
 }
+.fill{
+    background: #8e8e8e50;
+    margin: 20px;
+    border-radius: 7px;
+}
 .fill h2{
     padding-top: 18px;
     padding-left: 10px;
