@@ -210,6 +210,13 @@ section.why{
     background-position: center;
     background-size: contain;
 }
+.cards{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.cards p{
+    max-width: 460px;
+}
 .writings h1{
     font-family: var(--main_font);
     font-size: 4rem;
