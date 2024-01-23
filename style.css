@@ -211,17 +211,17 @@ section.why{
     background-size: contain;
 }
 .cards{
+    height: 380px;
+    width: 550px;
     display: grid;
     grid-template-columns: 2fr 2fr;
+    margin: 40px;
+    
+    
 }
-.cards p{
-    max-width: 460px;
+.cards .cfill{
+    background: #8e8e8e90;
+    position: relative;
 }
-.writings h1{
-    font-family: var(--main_font);
-    font-size: 4rem;
-}
-.writings h1 span{
-    color: #0000004f;
-}
+    
 
