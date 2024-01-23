@@ -187,9 +187,7 @@ section .products{
 .btnar button{
     padding: 0 20px;
     border: none;
-    font-size: 2rem;
-
-    
+    font-size: 2rem;    
 }
 section.why{
     display: flex;
