@@ -338,7 +338,38 @@ section.best{
     height: 400px;
     width: 400px;
 }
-
+footer{
+    background-color: var(--primary_color);
+}
+footer .mainf{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 60vh;
+}
+footer .mainf p{
+    max-width: 500px;
+    margin-top:10px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+footer .mainf h2{
+    font-family: var(--main_font);
+    font-size: 2rem;
+}
+footer .mainf h1{
+    font-family: var(--main_font);
+    font-size: 3rem;
+}
+footer .copyright{
+    text-align: center;
+    font-family: sans-serif;
+    color: #000000;
+}
+footer .copyright span{
+    color: white;
+}
 
 
 
