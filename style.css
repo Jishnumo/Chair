@@ -211,17 +211,42 @@ section.why{
     background-size: contain;
 }
 .cards{
-    height: 380px;
+    height: 480px;
     width: 550px;
     display: grid;
     grid-template-columns: 2fr 2fr;
-    margin: 40px;
+    margin-top: 40px;
     
     
 }
 .cards .cfill{
     background: #8e8e8e90;
     position: relative;
+    margin: 30px 30px;
+    border-radius: 5px;
 }
+.cards .cnofill{
+    margin: 0 40px;
+}
+.cards .star{
+    position: absolute;
+    margin-top: -20px;
+    font-size: 2rem;
+    margin-left: -11px;
+   
+}
+.cards h2{
+    padding-top: 18px;
+    padding-left: 10px;
+}
+.cards p{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.cards .cnofill{
+    margin: 30px 30px;
+    border-radius: 7px;
+}
+
     
 
