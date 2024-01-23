@@ -245,7 +245,7 @@ section.why{
 .cards .cnofill{
     margin: 0 40px;
 }
-.cards .star{
+.star{
     position: absolute;
     margin-top: -20px;
     font-size: 2rem;
@@ -272,7 +272,7 @@ section.why{
     font-family: var(--main_font);
 }
 .writings span{
-    color: #0000004f
+    color: #0000004f;
 }
 .writings p{
     margin-top: 20px;
@@ -282,4 +282,63 @@ section.why{
 .writings{
     margin-left:18rem;
 } 
+section.best{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.best .wr h1{
+    font-size: 4rem;
+    font-family: var(--main_font);
+}
+.best .wr h1 span{
+    color: #0000004f;
+}
+.best .wr p{
+    margin-top: 20px;
+    font-family: sans-serif;
+    max-width: 550px;
+}  
+.card1{
+    margin-top: 2rem;
+    height: 400px;
+    width: 550px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    border-radius: 5px;
+    margin-top:4rem;
+}
+.fill h2{
+    padding-top: 18px;
+    padding-left: 10px;
+}
+.fill p{
+    font-family: sans-serif;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.imagecont {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.imagecont::before{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
+    z-index: -1;
+}
+.imagecont img{
+    height: 400px;
+    width: 400px;
+}
+
+
+
 
