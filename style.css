@@ -222,7 +222,7 @@ section.why{
 .cards .cfill{
     background: #8e8e8e90;
     position: relative;
-    margin: 30px 30px;
+    margin: 20px 20px;
     border-radius: 5px;
 }
 .cards .cnofill{
@@ -240,13 +240,29 @@ section.why{
     padding-left: 10px;
 }
 .cards p{
+    font-family: sans-serif;
     padding-top: 10px;
     padding-left: 10px;
 }
 .cards .cnofill{
-    margin: 30px 30px;
+    background: #8e8e8e50;
+    position: relative;
+    margin: 20px 20px;
     border-radius: 7px;
 }
-
-    
+.writings h1{
+    font-size: 4rem;
+    font-family: var(--main_font);
+}
+.writings span{
+    color: #0000004f
+}
+.writings p{
+    margin-top: 20px;
+    font-family: sans-serif;
+    max-width: 550px;
+}  
+.writings{
+    margin-left:18rem;
+} 
 
