@@ -345,6 +345,7 @@ section.best{
 }
 footer{
     background-color: var(--primary_color);
+    
 }
 footer .mainf{
     display: flex;
@@ -352,6 +353,7 @@ footer .mainf{
     align-items: center;
     color: white;
     height: 60vh;
+    
 }
 footer .mainf p{
     max-width: 500px;
@@ -368,6 +370,7 @@ footer .mainf h1{
     font-size: 3rem;
 }
 footer .copyright{
+    margin-top:10px;
     text-align: center;
     font-family: sans-serif;
     color: #000000;
